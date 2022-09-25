@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg"
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, serIsDeleting] = useState(false);
+    const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ["Full Stack Developer", "Web Designer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -28,10 +28,10 @@ export const Banner = () => {
             setDelta(prevDelta => prevDelta / 2)
         }
         if(!isDeleting && updatedText === fullText){
-            serIsDeleting(true);
+            setIsDeleting(true);
             setDelta(period);
         }else if (isDeleting && updatedText === ''){
-            serIsDeleting(false);
+            setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setDelta(500);
         }
