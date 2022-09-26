@@ -21,7 +21,8 @@ export const Footer = () => {
             </div>
           </Col>
           <Col size={12} sm={12} className="justify-content-center text-sm-center">
-            <p className="justify-content-center text-sm-center">Copyright 2022. All Rights Reserved <p>Alberto Giuseppe Full Stack Developer</p></p>
+            <p className="justify-content-center text-sm-center">Copyright 2022. All Rights Reserved</p>
+            <p>Alberto Giuseppe Full Stack Developer</p>
           </Col>
         </Row>
       </Container>
