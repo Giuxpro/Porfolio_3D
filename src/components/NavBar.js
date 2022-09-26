@@ -5,12 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-// import { HashLink } from 'react-router-hash-link';
-// import {
-//   BrowserRouter as Router
-// } from "react-router-dom";
+import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon5 from '../assets/img/nav-icon5.svg';
+import { HashLink } from 'react-router-hash-link';
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 
@@ -35,6 +33,7 @@ export const NavBar = () => {
     }
 
   return (
+  <Router>
     <Navbar expand="md" className={scrolled ? 'scrolled': ""}>
       <Container>
         <Navbar.Brand href="/">
@@ -51,16 +50,17 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#'><img src={navIcon1} alt="" /></a>
-                <a href='#'><img src={navIcon2} alt="" /></a>
-                <a href='#'><img src={navIcon3} alt="" /></a>
+            <a href="https://www.linkedin.com/in/giu-dev/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://api.whatsapp.com/send?phone=51922276249" target="_blank"><img src={navIcon5} alt="Icon" /></a>
+              <a href="https://github.com/Giuxpro" target="_blank"><img src={navIcon4} alt="Icon" /></a>
             </div>
-            {/* <HashLink to='#connect'> */}
-            <button className='btn' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
-            {/* </HashLink> */}
+            <HashLink to='#connect'>
+              <button className='btn' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            </HashLink>
           </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+  </Router>
   );
 }
