@@ -1,22 +1,26 @@
+require('dotenv').config();
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-
+const {EMAIL_USER, EMAIL_PASS, EMAIL_HOST, EMAIL_PORT} = process.env;
 // server used to send send emails
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
+
 
 const contactEmail = nodemailer.createTransport({
+//   host: 'smtp.ethereal.email',
+  host: EMAIL_HOST,
+  port: EMAIL_PASS,
+  secure:false,
   service: 'gmail',
   auth: {
-    user: "********@gmail.com",
-    pass: ""
+    user: EMAIL_USER,
+    pass: EMAIL_PASS
   },
 });
 
@@ -35,7 +39,7 @@ router.post("/contact", (req, res) => {
   const phone = req.body.phone;
   const mail = {
     from: name,
-    to: "********@gmail.com",
+    to: 'albertogiusepp@gmail.com',
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
