@@ -346,6 +346,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.tech-skills{
+  margin: 50px 0px 20px 0px;
+}
 
 /************ Projects Css ************/
 .project {

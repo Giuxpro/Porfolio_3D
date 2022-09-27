@@ -9,46 +9,6 @@ import projects3 from "./Data/Data3.json"
 
 export const Projects = () => {
 
-  // const projects = [
-  //   {
-  //     title: "AndresGiuseppe",
-  //     description: "Design & Development",
-  //     imgUrl: projImg1,
-  //     demo : "https://www.andresgiusepperemax.com/"
-  //   },
-  //   {
-  //     title: "Pokemons Api Web",
-  //     description: "Design & Development",
-  //     imgUrl: projImg2,
-  //     demo : "https://pi-pokemons-plum.vercel.app/"
-  //   },
-  //   {
-  //     title: "Henry Match",
-  //     description: "Design & Development",
-  //     imgUrl: projImg3,
-  //     demo : "https://henry-front.vercel.app/"
-  //   },
-  //   {
-  //     title: "Movies Web",
-  //     description: "Design & Development",
-  //     imgUrl: projImg4,
-  //     demo : "https://giudev-movieweb.netlify.app/"
-  //   },
-  //   {
-  //     title: "Porfolio Demo",
-  //     description: "Design & Development",
-  //     imgUrl: projImg5,
-  //     demo : "https://giu-web.netlify.app/"
-  //   },
-  //   {
-  //     title: "Giux Games Web",
-  //     description: "Design & Development",
-  //     imgUrl: projImg6,
-  //     demo : "https://pi-video-games-rho.vercel.app/"
-  //   },
-    
-  // ];
-
   return (
     <section className="project" id="projects">
       <Container>

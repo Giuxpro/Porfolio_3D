@@ -52,7 +52,7 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">welcome to my porfolio</span>
                                     <h1>{`Hi I´m Alberto a`}<br/><span className="wrap">{text}</span></h1>
-                                    <p>I am a curious developer passionate about the world of programming and learning new technologies, eager to learn, investigate and continue training. Thanks to the push of my friends and colleagues, I learned to work under pressure with excellent results to complete tasks in limited time. Teamwork is essential, I like to debate and share ideas, search for different solutions and share knowledge as a team, above all great group communication</p>
+                                    <p>I am a curious developer passionate about the world of programming and learning new technologies, eager to learn, investigate and continue training. Thanks to the push of my friends and colleagues, I learned to work under pressure with excellent results to complete tasks in limited time. Teamwork is essential, I like to debate and share ideas, search for different solutions and share knowledge as a team, above all great group communication.</p>
                                     <HashLink to='#connect' className="hbtn">
                                         <button className='btn1' onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25}/></button>
                                     </HashLink>
