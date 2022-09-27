@@ -472,8 +472,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.Live-Demo-container{
+  margin-top: 20px;
+}
+.Live-Demo{
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms;
+}
+.Live-Demo:hover{
+  color: rgb(206, 206, 206);
+  transform: scale(1);
+}
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
