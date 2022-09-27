@@ -1,0 +1,38 @@
+[
+    {
+      "title": "AndresGiuseppe",
+      "description": "Design & Development",
+      "imgUrl": "AndresWeb.png",
+      "demo" : "https://www.andresgiusepperemax.com/"
+    },
+    {
+      "title": "Pokemons Api Web",
+      "description": "Design & Development",
+      "imgUrl": "Pokemonweb.png",
+      "demo" : "https://pi-pokemons-plum.vercel.app/"
+    },
+    {
+      "title": "Henry Match",
+      "description": "Design & Development",
+      "imgUrl": "HM.png",
+      "demo" : "https://henry-front.vercel.app/"
+    },
+    {
+      "title": "Movies Web",
+      "description": "Design & Development",
+      "imgUrl": "MovieApp.png",
+      "demo" : "https://giudev-movieweb.netlify.app/"
+    },
+    {
+      "title": "Porfolio Demo",
+      "description": "Design & Development",
+      "imgUrl": "porfolioDemo.png",
+      "demo" : "https://giu-web.netlify.app/"
+    },
+    {
+      "title": "Giux Games Web",
+      "description": "Design & Development",
+      "imgUrl": "vidGame.png",
+      "demo" : "https://pi-video-games-rho.vercel.app/"
+    }
+]

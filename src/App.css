@@ -63,6 +63,10 @@ button {
   background-color: transparent;
 }
 
+.hbtn{
+  text-decoration: none;
+}
+
 input:focus, textarea:focus, select:focus {
   outline: none;
 }

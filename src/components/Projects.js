@@ -1,49 +1,60 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/AndresWeb.png";
+import projImg2 from "../assets/img/Pokemonweb.png";
+import projImg3 from "../assets/img/HM.png";
+import projImg4 from "../assets/img/MovieApp.png";
+import projImg5 from "../assets/img/porfolioDemo.png";
+import projImg6 from "../assets/img/vidGame.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import projects from "./Data/Data1.json"
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: "AndresGiuseppe",
+  //     description: "Design & Development",
+  //     imgUrl: projImg1,
+  //     demo : "https://www.andresgiusepperemax.com/"
+  //   },
+  //   {
+  //     title: "Pokemons Api Web",
+  //     description: "Design & Development",
+  //     imgUrl: projImg2,
+  //     demo : "https://pi-pokemons-plum.vercel.app/"
+  //   },
+  //   {
+  //     title: "Henry Match",
+  //     description: "Design & Development",
+  //     imgUrl: projImg3,
+  //     demo : "https://henry-front.vercel.app/"
+  //   },
+  //   {
+  //     title: "Movies Web",
+  //     description: "Design & Development",
+  //     imgUrl: projImg4,
+  //     demo : "https://giudev-movieweb.netlify.app/"
+  //   },
+  //   {
+  //     title: "Porfolio Demo",
+  //     description: "Design & Development",
+  //     imgUrl: projImg5,
+  //     demo : "https://giu-web.netlify.app/"
+  //   },
+  //   {
+  //     title: "Giux Games Web",
+  //     description: "Design & Development",
+  //     imgUrl: projImg6,
+  //     demo : "https://pi-video-games-rho.vercel.app/"
+  //   },
+    
+  // ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

@@ -4,6 +4,8 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import 'animate.css';
 import headerImg from "../assets/img/header-img.svg";
+import { HashLink } from "react-router-hash-link";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -40,30 +42,34 @@ export const Banner = () => {
     }
 
   return (
-    <section className="banner">
-        <Container>
-            <Row className="align-items-center">
-                <Col xs={12} md={6} xl={7}>
-                    <TrackVisibility>
+    <Router>
+        <section className="banner">
+            <Container>
+                <Row className="align-items-center">
+                    <Col xs={12} md={6} xl={7}>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                    <span className="tagline">welcome to my porfolio</span>
+                                    <h1>{`Hi I´m Alberto a`}<br/><span className="wrap">{text}</span></h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+                                    <HashLink to='#connect' className="hbtn">
+                                        <button className='btn1' onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25}/></button>
+                                    </HashLink>
+                                </div>}
+                        </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <TrackVisibility>
                         {({ isVisible }) =>
-                            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                <span className="tagline">welcome to my porfolio</span>
-                                <h1>{`Hi I´m Alberto a`}<br/><span className="wrap">{text}</span></h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
-                                <button onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25}/></button>
+                            <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                            <img src={headerImg} alt="Header Img"/>
                             </div>}
-                    </TrackVisibility>
-                </Col>
-                <Col xs={12} md={6} xl={5}>
-                    <TrackVisibility>
-                    {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                        <img src={headerImg} alt="Header Img"/>
-                        </div>}
-                    </TrackVisibility>
-                </Col>
-            </Row>
-        </Container>
-    </section>
+                        </TrackVisibility>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+    </Router>
   )
 }
