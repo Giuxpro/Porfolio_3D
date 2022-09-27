@@ -236,6 +236,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.btnC{
+  height: 35px;
+  transition: all 300ms;
+}
+.btnC:hover{
+  transform: scale(1.1);
+}
+.btnCv{
+  font-weight: 400;
+  color: rgb(240, 24, 24) !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+.btnCv:hover{
+  color: #fff !important;
+  
+}
 
 /************ Banner Css ************/
 .banner {

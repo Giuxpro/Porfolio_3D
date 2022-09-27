@@ -9,6 +9,7 @@ import navIcon4 from '../assets/img/nav-icon4.svg';
 import navIcon5 from '../assets/img/nav-icon5.svg';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
+import Cv from './Cv';
 
 
 
@@ -40,6 +41,7 @@ export const NavBar = () => {
           <Navbar.Brand href="/">
               <img src={logo} alt="Logo"/>
           </Navbar.Brand>
+          <Cv className="btnCv"/>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className='navbar-toggler-icon'></span>
           </Navbar.Toggle>
