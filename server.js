@@ -15,7 +15,7 @@ app.listen(5000, () => console.log("Server Running"));
 const contactEmail = nodemailer.createTransport({
 //   host: 'smtp.ethereal.email',
   host: EMAIL_HOST,
-  port: EMAIL_PASS,
+  port: EMAIL_PORT,
   secure:false,
   service: 'gmail',
   auth: {
