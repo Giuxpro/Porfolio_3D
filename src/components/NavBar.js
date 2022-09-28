@@ -53,9 +53,9 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
               <div className='social-icon'>
-                <a href="https://www.linkedin.com/in/giu-dev/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-                <a href="https://api.whatsapp.com/send?phone=51922276249" target="_blank"><img src={navIcon5} alt="Icon" /></a>
-                <a href="https://github.com/Giuxpro" target="_blank"><img src={navIcon4} alt="Icon" /></a>
+                <a href="https://www.linkedin.com/in/giu-dev/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
+                <a href="https://api.whatsapp.com/send?phone=51922276249" target="_blank" rel="noreferrer"><img src={navIcon5} alt="Icon" /></a>
+                <a href="https://github.com/Giuxpro" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Icon" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className='btn' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
