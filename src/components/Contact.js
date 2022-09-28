@@ -50,7 +50,8 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                // <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <iframe  className="iframe" src='https://my.spline.design/untitled-b13f4470e5ed2fe11e92f83131011b7e/' frameborder='0' width='100%' height='500px'></iframe>
               }
             </TrackVisibility>
           </Col>
