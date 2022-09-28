@@ -97,7 +97,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 {/* <img src={meter1} alt="Img1"/> */}
-                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png" style={{height:"100px", width:"100px"}} alt="typescript"/></a>
+                                <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" style={{height:"100px", width:"100px"}} alt="typescript"/></a>
                                 <h5>TypeScript</h5>
                             </div>
                             <div className="item">
@@ -127,7 +127,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 {/* <img src={meter1} alt="Img1"/> */}
-                                <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_original_logo_icon_146391.png" style={{height:"100px", width:"100px"}} alt="postgreSql"/></a>
+                                <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://e7.pngegg.com/pngimages/396/90/png-clipart-postgresql-database-logo-computer-icons-replication-software-developer-miscellaneous-blue.png" style={{height:"100px", width:"100px"}} alt="postgreSql"/></a>
                                 <h5>PostgreSql</h5>
                             </div>
                             <div className="item">
