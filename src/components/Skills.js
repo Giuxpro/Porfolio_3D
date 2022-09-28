@@ -127,7 +127,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 {/* <img src={meter1} alt="Img1"/> */}
-                                <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://e7.pngegg.com/pngimages/396/90/png-clipart-postgresql-database-logo-computer-icons-replication-software-developer-miscellaneous-blue.png" style={{height:"100px", width:"100px"}} alt="postgreSql"/></a>
+                                <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postgresql-icon.png" style={{height:"100px", width:"100px"}} alt="postgreSql"/></a>
                                 <h5>PostgreSql</h5>
                             </div>
                             <div className="item">
