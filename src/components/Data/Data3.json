@@ -4,6 +4,12 @@
       "description": "Design & Development",
       "imgUrl": "ColorGame.png",
       "demo" : "https://giux-colorgame.netlify.app/"
+    },
+    {
+      "title": "Rocket 3D",
+      "description": "Design & Development",
+      "imgUrl": "rocket3d.png",
+      "demo" : "https://my.spline.design/untitled-b13f4470e5ed2fe11e92f83131011b7e/"
     }
     
 ]
