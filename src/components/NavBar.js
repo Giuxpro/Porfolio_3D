@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/spaceship.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
 import navIcon5 from '../assets/img/nav-icon5.svg';
