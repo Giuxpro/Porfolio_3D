@@ -27,8 +27,8 @@ export const Skills = () => {
         }
       };
   return (
-    <section>
-      <section className="skill" id="skills">
+    <section id="skills">
+      <section className="skill" >
           <Container>
               <Row>
                   <Col>
