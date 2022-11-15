@@ -30,7 +30,7 @@ export const Skills = () => {
     <section id="skills">
       <section className="skill" >
           <Container>
-              <Row>
+              {/* <Row>
                   <Col>
                     <div className="skill-bx">
                           <h2>
@@ -66,7 +66,7 @@ export const Skills = () => {
                           </Carousel>
                     </div>
                   </Col>
-              </Row>
+              </Row> */}
           </Container>
           <img className="background-image-left" src={colorSharp} alt="colorSharp"/>
       </section>
